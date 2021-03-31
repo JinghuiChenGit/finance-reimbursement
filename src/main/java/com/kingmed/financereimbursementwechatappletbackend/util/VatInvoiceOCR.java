@@ -1,8 +1,5 @@
-package com.kingmed.invoiceswechatappletbackend.util;
+package com.kingmed.financereimbursementwechatappletbackend.util;
 
-import com.google.gson.Gson;
-import com.google.gson.JsonObject;
-import com.kingmed.invoiceswechatappletbackend.entity.JsonEntity;
 import com.tencentcloudapi.common.Credential;
 import com.tencentcloudapi.common.exception.TencentCloudSDKException;
 import com.tencentcloudapi.common.profile.ClientProfile;

@@ -1,4 +1,4 @@
-package com.kingmed.invoiceswechatappletbackend.service;
+package com.kingmed.financereimbursementwechatappletbackend.service;
 
 /*
  * @description: OCR的扫描服务
@@ -8,17 +8,9 @@ package com.kingmed.invoiceswechatappletbackend.service;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import com.kingmed.invoiceswechatappletbackend.entity.JsonEntity;
-import com.kingmed.invoiceswechatappletbackend.util.ResultFormatter;
-import com.kingmed.invoiceswechatappletbackend.util.VatInvoiceOCR;
-import com.tencentcloudapi.common.Credential;
-import com.tencentcloudapi.common.exception.TencentCloudSDKException;
-import com.tencentcloudapi.common.profile.ClientProfile;
-import com.tencentcloudapi.common.profile.HttpProfile;
-import com.tencentcloudapi.common.profile.Language;
-import com.tencentcloudapi.ocr.v20181119.OcrClient;
-import com.tencentcloudapi.ocr.v20181119.models.VatInvoiceOCRRequest;
-import com.tencentcloudapi.ocr.v20181119.models.VatInvoiceOCRResponse;
+import com.kingmed.financereimbursementwechatappletbackend.entity.JsonEntity;
+import com.kingmed.financereimbursementwechatappletbackend.util.ResultFormatter;
+import com.kingmed.financereimbursementwechatappletbackend.util.VatInvoiceOCR;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

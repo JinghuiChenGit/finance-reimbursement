@@ -1,10 +1,10 @@
-package com.kingmed.invoiceswechatappletbackend.controller;
+package com.kingmed.financereimbursementwechatappletbackend.controller;
 
 import com.google.gson.JsonObject;
-import com.kingmed.invoiceswechatappletbackend.entity.OcrModel;
-import com.kingmed.invoiceswechatappletbackend.service.InvoicesService;
-import com.kingmed.invoiceswechatappletbackend.entity.Invoices;
-import com.kingmed.invoiceswechatappletbackend.service.VatInvoiceOCRService;
+import com.kingmed.financereimbursementwechatappletbackend.entity.OcrModel;
+import com.kingmed.financereimbursementwechatappletbackend.service.InvoicesService;
+import com.kingmed.financereimbursementwechatappletbackend.entity.Invoices;
+import com.kingmed.financereimbursementwechatappletbackend.service.VatInvoiceOCRService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

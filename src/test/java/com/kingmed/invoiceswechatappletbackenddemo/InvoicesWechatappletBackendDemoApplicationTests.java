@@ -1,6 +1,6 @@
 package com.kingmed.invoiceswechatappletbackenddemo;
 
-import com.kingmed.invoiceswechatappletbackend.service.VatInvoiceOCRService;
+import com.kingmed.financereimbursementwechatappletbackend.service.VatInvoiceOCRService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

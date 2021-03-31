@@ -9,7 +9,7 @@ package com.kingmed.invoiceswechatappletbackenddemo;
 
 
 import com.google.gson.Gson;
-import com.kingmed.invoiceswechatappletbackend.entity.JsonEntity;
+import com.kingmed.financereimbursementwechatappletbackend.entity.JsonEntity;
 import com.tencentcloudapi.common.Credential;
 import com.tencentcloudapi.common.exception.TencentCloudSDKException;
 import com.tencentcloudapi.common.profile.ClientProfile;

@@ -1,13 +1,9 @@
-package com.kingmed.invoiceswechatappletbackend.service;
-import com.kingmed.invoiceswechatappletbackend.entity.InvoiceItem;
-import com.kingmed.invoiceswechatappletbackend.entity.Invoices;
-import com.kingmed.invoiceswechatappletbackend.repository.InvoiceItemRepository;
-import com.kingmed.invoiceswechatappletbackend.repository.InvoicesRepository;
+package com.kingmed.financereimbursementwechatappletbackend.service;
+import com.kingmed.financereimbursementwechatappletbackend.entity.Invoices;
+import com.kingmed.financereimbursementwechatappletbackend.repository.InvoicesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.Optional;
 
 /*
  * @description: 扫描发票业务层
@@ -19,9 +15,6 @@ public class InvoicesService {
     @Autowired
     InvoicesRepository invoicesRepository;
 
-    @Autowired
-    InvoiceItemRepository invoiceItemRepository;
-
     public String findAll(){
        return invoicesRepository.findAll().toString();
     }
@@ -29,7 +22,6 @@ public class InvoicesService {
     //调用repository的save写入数据到数据库
     @Transactional
     public Invoices saveInvoices(Invoices invoices){
-
             return invoicesRepository.save(invoices);
 
     }

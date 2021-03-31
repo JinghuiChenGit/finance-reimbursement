@@ -1,4 +1,4 @@
-package com.kingmed.invoiceswechatappletbackend.entity;
+package com.kingmed.financereimbursementwechatappletbackend.entity;
 
 /*
  * @description: json enetity

@@ -7,7 +7,7 @@ package com.kingmed.invoiceswechatappletbackenddemo;
  */
 
 import com.google.gson.Gson;
-import com.kingmed.invoiceswechatappletbackend.entity.OcrModel;
+import com.kingmed.financereimbursementwechatappletbackend.entity.OcrModel;
 
 public class testapi {
     public static void main(String[] args) {
